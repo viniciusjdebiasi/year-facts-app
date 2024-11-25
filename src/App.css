@@ -1,0 +1,95 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  color: #fff;
+  max-width: 80%;
+  text-align: center;
+  letter-spacing: 0.3rem;
+  font-size: 3rem;
+  font-family: 'Sour Gummy';
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.fact-container {
+  max-width: 40rem;
+  position: fixed;
+  z-index: 10;
+  top: 15%;
+  background-color: #000;
+  opacity: 0.9;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.invisivel {
+  display: none;
+}
+
+.fact {
+  color: grey;
+  font-size: 2.5rem;
+  font-family: 'Sour Gummy';
+  transition: 0.3s;
+  text-align: justify;
+}
+
+.button-x {
+  background: none;
+  border: none;
+}
+
+.img-x {
+  width: 3rem;
+  height: auto;
+  transition: 0.3s;
+}
+
+.img-x:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.button-year {
+  font-family: 'Spicy Rice';
+  width: 10rem;
+  height: 4rem;
+  border: none;
+  background-color: #fff;
+  font-size: 2.5rem;
+  transition: 0.3s;
+  opacity: 0.5;
+  position: relative;
+  z-index: 1;
+}
+
+.button-year:hover {
+  cursor: pointer;
+  box-shadow: 0.3rem -0.3rem grey;
+  opacity: 1;
+}
+
+.button-year:active {
+  background-color: grey;
+  box-shadow: 0.3rem -0.3rem #fff;
+}
